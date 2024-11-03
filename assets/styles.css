@@ -5,12 +5,15 @@
 * {
     padding: 0;
     margin: 0;
+    
 }
 
-body {
+html, body {
     font-family: Montserrat, sans-serif;
     background-color: #252525;
     color: #ffffff;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 header, footer, section {
@@ -26,9 +29,49 @@ header, footer, section {
 }
 
 section > h1, h4, p {
-    font-weight: light;
+    font-weight: 200;
     text-align: center;
     padding: 10px 10px;
+}
+
+.home-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+figure {
+    position: relative;
+    height: 580px;
+    background-color: rgba(0, 0, 0, 0.9);
+    opacity: 0.9;
+    overflow: hidden;
+}
+
+figure img {
+    height: 580px;
+    width:auto;
+    object-fit: cover;
+    transition: transform 1.7s;
+    overflow: hidden;
+}
+
+figure img:hover {
+  transform: scale(1.1);
+}
+
+figcaption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: large;
+    font-weight: lighter;
+    background-color: hsla(0, 0%, 0%, 0.7);
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .logo {
@@ -51,17 +94,18 @@ nav a:hover {
 }
 
 #active {
-    color: #ad8e70;
     border-bottom: 1px solid rgb(173, 142, 112);
-}
-
-img {
-    height: 600px;
-    width:auto;
 }
 
 a {
     color: #FFF;
     text-decoration: none;
     font-weight: lighter;
+}
+
+hr {
+    width: 50%;
+    margin: 30px auto 0 auto;
+    border: none;
+    border-top: 1px solid #999;
 }
