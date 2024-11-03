@@ -20,16 +20,21 @@ header, footer, section {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     font-size: smaller;
-    margin: 20px 0;    
+    margin: 20px 0 0 0;    
 }
 
-section > h1, h4, p {
+section > h1, h4, p, .gallery-title {
     font-weight: 200;
     text-align: center;
     padding: 10px 10px;
+}
+
+p {
+    font-size: medium;
+    word-spacing: 1px;
 }
 
 .home-images {
@@ -115,7 +120,7 @@ footer li a {
 }
 
 footer p {
-    padding: 0;
+    margin: 0 0 10px 0;
 }
 
 /* Begin of Gallery  */
@@ -148,7 +153,10 @@ footer p {
 }
 
 .gallery-title {
-    font-size: x-large;
-    color:#ae8e70;
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: #ae8e70;
+    margin: 0px 0px 10px 0px;
+    padding: 25px 15px 1px 15px;
 }
 /* End of Gallery */
