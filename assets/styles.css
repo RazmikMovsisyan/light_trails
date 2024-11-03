@@ -117,3 +117,35 @@ footer li a {
 footer p {
     padding: 0;
 }
+
+/* Gallery  */
+
+.gallery-container {
+    width: min(1000px, 100%);
+    margin: 0 auto;
+    opacity: 0.9;
+    columns: 3 300px;
+    column-gap: 1em;
+
+}
+
+.gallery-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 1.7s;
+    overflow: hidden;
+    transform-origin: center center;
+}
+
+.gallery-container img:hover {
+    transform: scale(1.1);
+  }
+
+  .img-wrapper {
+    overflow: hidden;
+    width: 100%;
+    margin: 0px 15px 15px 0px;
+    border-radius: 10px;
+}
