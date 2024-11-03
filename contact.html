@@ -43,33 +43,61 @@
     </header>
 
     <main>
+        <div class="contact-form">
+            <form action="https://formdump.codeinstitute.net" method="POST" aria-labelledby="contactFormTitle">
+                <h2 id="contactFormTitle">Contact Form</h2>
+                <br>
+                <!-- First Name Field -->
+                <label id="firstNameLabel" for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" required aria-required="true"
+                    aria-labelledby="firstNameLabel" placeholder="Enter Your First Name">
 
+                <!-- Last Name Field -->
+                <label id="lastNameLabel" for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName" required aria-required="true"
+                    aria-labelledby="lastNameLabel" placeholder="Enter Your Last Name">
+
+                <!-- Email Field -->
+                <label id="emailLabel" for="email">E-Mail</label>
+                <input type="email" id="email" name="email" required aria-required="true" aria-labelledby="emailLabel"
+                    placeholder="Enter Your Email Address">
+
+                <!-- Message Field -->
+                <label id="messageLabel" for="message">Message</label>
+                <textarea id="message" name="message" required aria-required="true" aria-labelledby="messageLabel"
+                    placeholder="Describe Your Inquiry or Request"></textarea>
+
+                <!-- Submit Button -->
+                <button type="submit" aria-label="Submit Contact Form">Submit</button>
+            </form>
+
+        </div>
     </main>
-        <!--Footer with Copyright and Social Media-->
-        <footer>
+    <!--Footer with Copyright and Social Media-->
+    <footer>
 
-            <ul>
-                <li>
-                    <a href="https://www.instagram.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Instagram page. (opens in a new Tab)"><i
-                            class="fa-brands fa-square-instagram"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Facebook page. (opens in a new Tab)"><i
-                            class="fa-brands fa-square-facebook"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.x.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Twitter page. (opens in a new Tab)"><i
-                            class="fa-brands fa-square-x-twitter"></i></a>
-                </li>
-            </ul>
-            <p>Copyright 2024</p>
-        </footer>
+        <ul>
+            <li>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page. (opens in a new Tab)"><i
+                        class="fa-brands fa-square-instagram"></i></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page. (opens in a new Tab)"><i
+                        class="fa-brands fa-square-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://www.x.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page. (opens in a new Tab)"><i
+                        class="fa-brands fa-square-x-twitter"></i></a>
+            </li>
+        </ul>
+        <p>Copyright 2024</p>
+    </footer>
 
-        <!-- Font Awesome kit -->
-        <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome kit -->
+    <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
