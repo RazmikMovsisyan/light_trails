@@ -1,7 +1,7 @@
+/* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&amp;display=swap');
 
 /* General Styling by Wildcard Selector */
-
 * {
     padding: 0;
     margin: 0;
@@ -23,9 +23,7 @@ header, footer, section {
     justify-content: space-between;
     align-items: center;
     font-size: smaller;
-    margin: 20px 0;
-    text-transform: uppercase;
-    
+    margin: 20px 0;    
 }
 
 section > h1, h4, p {
@@ -43,15 +41,14 @@ section > h1, h4, p {
 
 figure {
     position: relative;
-    height: 580px;
+    height: 590px;
     background-color: rgba(0, 0, 0, 0.9);
     opacity: 0.9;
     overflow: hidden;
 }
 
 figure img {
-    height: 580px;
-    width:auto;
+    height: 100%;
     object-fit: cover;
     transition: transform 1.7s;
     overflow: hidden;
@@ -81,6 +78,7 @@ figcaption {
     margin: 10px 0;
 }
 nav > ul, footer > ul {
+    text-transform: uppercase;
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -108,4 +106,14 @@ hr {
     margin: 30px auto 0 auto;
     border: none;
     border-top: 1px solid #999;
+}
+
+footer li a {
+    font-size:xx-large;
+    color: #ae8e70;
+    gap: 20px;
+}
+
+footer p {
+    padding: 0;
 }
