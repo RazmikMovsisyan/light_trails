@@ -118,7 +118,7 @@ footer p {
     padding: 0;
 }
 
-/* Gallery  */
+/* Begin of Gallery  */
 
 .gallery-container {
     width: min(1000px, 100%);
@@ -146,3 +146,9 @@ footer p {
     margin: 0px 15px 15px 0px;
     border-radius: 10px;
 }
+
+.gallery-title {
+    font-size: x-large;
+    color:#ae8e70;
+}
+/* End of Gallery */
