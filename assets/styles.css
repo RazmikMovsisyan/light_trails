@@ -13,20 +13,28 @@ body {
     color: #ffffff;
 }
 
-header, footer {
+header, footer, section {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    font-size: smaller;
     margin: 20px 0;
     text-transform: uppercase;
     
 }
 
+section > h1, h4, p {
+    font-weight: light;
+    text-align: center;
+    padding: 10px 10px;
+}
+
 .logo {
+    display:flex;
     font-weight: 300;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 10px 0;
 }
 nav > ul, footer > ul {
@@ -38,13 +46,22 @@ nav > ul, footer > ul {
     gap: 15px;
 }
 
+nav a:hover {
+    color: #ad8e70;
+}
+
+#active {
+    color: #ad8e70;
+    border-bottom: 1px solid rgb(173, 142, 112);
+}
+
 img {
     height: 600px;
     width:auto;
 }
 
 a {
-    color: #ad8e70;
+    color: #FFF;
     text-decoration: none;
     font-weight: lighter;
 }
