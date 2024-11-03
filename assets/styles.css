@@ -125,8 +125,6 @@ footer p {
     margin: 0 auto;
     opacity: 0.9;
     columns: 3 300px;
-    column-gap: 1em;
-
 }
 
 .gallery-container img {
@@ -136,7 +134,6 @@ footer p {
     object-fit: cover;
     transition: transform 1.7s;
     overflow: hidden;
-    transform-origin: center center;
 }
 
 .gallery-container img:hover {
