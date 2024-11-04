@@ -5,10 +5,11 @@
 * {
     padding: 0;
     margin: 0;
-    
+
 }
 
-html, body {
+html,
+body {
     font-family: Montserrat, sans-serif;
     background-color: #252525;
     color: #ffffff;
@@ -16,17 +17,22 @@ html, body {
     scroll-behavior: smooth;
 }
 
-header, footer, section {
+header,
+footer,
+section {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     font-size: smaller;
-    margin: 20px 0 0 0;    
+    margin: 20px 0 0 0;
 }
 
-section > h1, h4, p, .gallery-title {
+h1, h2,
+h4,
+p,
+.gallery-title {
     font-weight: 200;
     text-align: center;
     padding: 10px 10px;
@@ -60,7 +66,7 @@ figure img {
 }
 
 figure img:hover {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 figcaption {
@@ -77,12 +83,14 @@ figcaption {
 }
 
 .logo {
-    display:flex;
+    display: flex;
     font-weight: 300;
     font-size: 1.5rem;
     margin: 10px 0;
 }
-nav > ul, footer > ul {
+
+nav>ul,
+footer>ul {
     text-transform: uppercase;
     list-style-type: none;
     display: flex;
@@ -114,7 +122,7 @@ hr {
 }
 
 footer li a {
-    font-size:xx-large;
+    font-size: xx-large;
     color: #ae8e70;
     gap: 20px;
 }
@@ -143,9 +151,9 @@ footer p {
 
 .gallery-container img:hover {
     transform: scale(1.1);
-  }
+}
 
-  .img-wrapper {
+.img-wrapper {
     overflow: hidden;
     width: 100%;
     margin: 0px 15px 15px 0px;
@@ -159,4 +167,53 @@ footer p {
     margin: 0px 0px 10px 0px;
     padding: 25px 15px 1px 15px;
 }
+
 /* End of Gallery */
+
+/* Begin of Contact.html */
+
+#contact-page {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-evenly;
+    margin: 20px 10px 20px 10px;
+}
+
+.contact-form {
+    width:auto;
+}
+
+input, textarea, button {
+    border: 2px solid #ad8e70;
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    margin: 20px auto 20px auto;
+
+  }
+
+::placeholder {
+    color: #000;
+    text-align: center;
+    opacity: 0.5;
+  }
+
+textarea {
+    height: 200px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    color: #252525;
+    padding: 15px;
+    background-color: #ad8e70;
+    color: #fff;}
+
+button:hover {
+    background-color: #fff;
+    color: #ad8e70;
+}
+/* End of Contact.html */
