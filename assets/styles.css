@@ -5,7 +5,6 @@
 * {
     padding: 0;
     margin: 0;
-
 }
 
 html,
@@ -163,7 +162,7 @@ footer p {
 .gallery-title {
     font-size: 1.6rem;
     font-weight: 300;
-    color: #ae8e70;
+    color: #FFF;
     margin: 0px 0px 10px 0px;
     padding: 25px 15px 1px 15px;
 }
@@ -198,7 +197,7 @@ footer p {
 
 .contact-paragraph h1, 
 .contact-paragraph p {
-    background-color: #00000050;
+    background-color: #000000a1;
     font-weight: 300;
     margin: 0;
 }
