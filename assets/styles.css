@@ -185,7 +185,7 @@ footer p {
 }
 
 .contact-paragraph {
-    background-image: url(/assets/images/contact-form-background-photo-telefon-box.jpg);
+    background-image: url(assets/images/contact-form-background-photo-telefon-box.jpg);
     background-size: cover;
     width: 100%;
     flex-direction: column;
