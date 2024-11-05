@@ -186,16 +186,24 @@ footer p {
 
 .contact-paragraph {
     background-image: url(/assets/images/contact-form-background-photo-telefon-box.jpg);
-    width: auto;
+    background-size: cover;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 400px;
     background-repeat: no-repeat;
     align-content: center;
 }
 
-.contact-paragraph h1, p {
+.contact-paragraph h1, 
+.contact-paragraph p {
     background-color: #00000050;
     font-weight: 300;
+    margin: 0;
 }
+
+
 
 input, textarea, button {
     border: 2px solid #ad8e70;
