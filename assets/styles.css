@@ -26,7 +26,7 @@ section {
     justify-content: space-evenly;
     align-items: center;
     font-size: smaller;
-    margin: 20px 0 0 0;
+    margin: 20px 0 20px 0;
 }
 
 h1, h2,
@@ -178,16 +178,28 @@ footer p {
     align-items: center;
     gap: 10px;
     justify-content: space-evenly;
-    margin: 20px 10px 20px 10px;
 }
 
 .contact-form {
-    width:auto;
+    width: 90%;
+}
+
+.contact-paragraph {
+    background-image: url(/assets/images/contact-form-background-photo-telefon-box.jpg);
+    width: auto;
+    height: 400px;
+    background-repeat: no-repeat;
+    align-content: center;
+}
+
+.contact-paragraph h1, p {
+    background-color: #00000050;
+    font-weight: 300;
 }
 
 input, textarea, button {
     border: 2px solid #ad8e70;
-    width: 100%;
+    width: 99%;
     height: 40px;
     border-radius: 4px;
     margin: 20px auto 20px auto;
@@ -196,6 +208,7 @@ input, textarea, button {
 
 ::placeholder {
     color: #000;
+    font-size: small;
     text-align: center;
     opacity: 0.5;
   }
