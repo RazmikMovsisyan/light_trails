@@ -221,6 +221,7 @@ input, textarea, button {
     height: 40px;
     border-radius: 4px;
     margin: 20px auto 20px auto;
+    outline: none;
 
   }
 
@@ -248,3 +249,5 @@ button:hover {
     color: #ad8e70;
 }
 /* End of Contact.html */
+
+/*  */
