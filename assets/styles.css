@@ -127,9 +127,21 @@ footer li a {
 }
 
 footer p {
-    margin: 0 0 10px 0;
+    margin: 0 0 5px 0;
 }
 
+.contact-us {
+    display:flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content; center;
+    gap: 2px;
+}
+
+.contact-us a {
+    color: #ad8e70;
+    font-size: 0.9rem; 
+}
 /* Begin of Gallery  */
 
 .gallery-container {
