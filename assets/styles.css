@@ -134,7 +134,6 @@ footer p {
     display:flex;
     flex-direction: row;
     align-items: baseline;
-    justify-content; center;
     gap: 2px;
 }
 
