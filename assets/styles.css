@@ -250,4 +250,14 @@ button:hover {
 }
 /* End of Contact.html */
 
-/*  */
+/* Responsive Tablet and Desktop Version */
+
+@media (min-width: 768px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: medium;
+        margin: 20px 9% 20px 9%;
+    }
+}
