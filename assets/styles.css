@@ -250,7 +250,7 @@ button:hover {
 }
 /* End of Contact.html */
 
-/* Responsive Tablet and Desktop Version */
+/* Begin of Responsive Tablet and Desktop Version */
 
 @media (min-width: 768px) {
     header {
@@ -259,5 +259,20 @@ button:hover {
         justify-content: space-between;
         font-size: medium;
         margin: 20px 9% 20px 9%;
+    }
+
+    section p {
+        font-size: x-large;
+        max-width: 1000px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #copyright {
+        width: 100%;
     }
 }
