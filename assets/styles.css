@@ -263,9 +263,9 @@ button:hover {
     header {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
         font-size: medium;
-        margin: 20px 9% 20px 9%;
+        justify-content: center;
+        gap: 50%;
     }
 
     section p {
@@ -299,9 +299,8 @@ button:hover {
         flex-direction: row;
         flex-wrap: nowrap;
         align-items: center;
-        gap: 10px;
-        justify-content: space-evenly;
-        margin: 35px;
+        gap: 1%;
+        margin: 0 5%;
     }
 
     .contact-form {
@@ -325,6 +324,12 @@ button:hover {
     textarea,
     button {
         margin: 10px auto;
+        padding: 10px 0;
+    }
+    
+    #contactFormTitle {
+        text-align: left;
+        font-weight: 200;
         padding: 10px 0;
     }
 }
