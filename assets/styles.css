@@ -25,7 +25,7 @@ section {
     justify-content: space-evenly;
     align-items: center;
     font-size: smaller;
-    margin: 20px 0 20px 0;
+    padding-bottom: 4vw;
 }
 
 h1,
@@ -60,6 +60,7 @@ figure {
 
 figure img {
     height: 100%;
+    width: 100%;
     object-fit: cover;
     transition: transform 1.7s;
     overflow: hidden;
@@ -266,14 +267,24 @@ button:hover {
 /* Begin of Responsive Tablet and Desktop Version */
 
 @media (min-width: 768px) {
+    body {
+        padding: 1vw 10vw;
+    }
+
     header {
         display: flex;
         flex-direction: row;
         font-size: medium;
-        justify-content: center;
-        gap: 50%;
+        padding-bottom: 1vw;
     }
-
+    .logo {
+        margin-right: auto;
+    }
+    .home-images {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
     section p {
         font-size: x-large;
         max-width: 1000px;
@@ -287,6 +298,9 @@ button:hover {
 
     #copyright {
         width: 100%;
+    }
+    .gallery-container {
+        width: auto;
     }
 
     .contact-paragraph {
@@ -306,7 +320,7 @@ button:hover {
         flex-wrap: nowrap;
         align-items: center;
         gap: 1%;
-        margin: 0 2.5% 1% 2.5%;
+        margin: auto;
         }
 
     .contact-form {
