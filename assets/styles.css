@@ -176,11 +176,15 @@ footer p {
 }
 
 .gallery-title {
-    font-size: 1.6rem;
-    font-weight: 300;
+    font-size: x-large;
+    font-weight: lighter;
     color: #FFF;
     margin: 0px 0px 10px 0px;
     padding: 25px 15px 1px 15px;
+    background-color: hsla(0, 0%, 0%, 0.7);
+    padding: 15px 15px;
+    border-radius: 10px;
+    text-align: center;
 }
 
 /* End of Gallery */
