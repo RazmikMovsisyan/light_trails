@@ -250,8 +250,8 @@ button {
 }
 
 button:hover {
-    background-color: #fff;
-    color: #ad8e70;
+    background-color: #252525;
+    color: #ffffff;
 }
 
 /* End of Contact.html */
@@ -274,7 +274,7 @@ button:hover {
 
     footer {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
     }
 
