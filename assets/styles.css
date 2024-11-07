@@ -25,14 +25,12 @@ section {
     justify-content: space-evenly;
     align-items: center;
     font-size: smaller;
-    padding-bottom: 4vw;
 }
 
 h1,
 h2,
 h4,
-p,
-.gallery-title {
+p {
     font-weight: 200;
     text-align: center;
     padding: 10px 10px;
@@ -150,8 +148,6 @@ footer p {
 /* Begin of Gallery  */
 
 .gallery-container {
-    width: min(1000px, 100%);
-    margin: 0 auto;
     opacity: 0.9;
     columns: 3 300px;
 }
@@ -176,14 +172,8 @@ footer p {
     border-radius: 10px;
 }
 
-.gallery-title {
-    font-size: x-large;
-    font-weight: lighter;
-    color: #FFF;
-    margin: 0px 0px 10px 0px;
-    padding: 25px 15px 1px 15px;
     background-color: hsla(0, 0%, 0%, 0.7);
-    padding: 15px 15px;
+    padding: 16px 0;
     border-radius: 10px;
     text-align: center;
 }
@@ -347,7 +337,7 @@ button:hover {
         padding: 10px 0;
     }
     
-    #contactFormTitle {
+    #contactformtitle {
         text-align: left;
         font-weight: 200;
         padding: 10px 0;
