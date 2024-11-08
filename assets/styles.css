@@ -250,9 +250,10 @@ button:hover {
 
 /* Begin of Responsive Tablet and Desktop Version */
 
+/* Tablet */
 @media (min-width: 768px) {
     body {
-        padding: 1vw 10vw;
+        padding: 1vw 5vw;
     }
 
     header {
@@ -261,14 +262,17 @@ button:hover {
         font-size: medium;
         padding-bottom: 1vw;
     }
+
     .logo {
         margin-right: auto;
     }
+
     .home-images {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
     }
+
     section p {
         font-size: x-large;
         max-width: 1000px;
@@ -283,8 +287,10 @@ button:hover {
     #copyright {
         width: 100%;
     }
+
     .gallery-container {
         width: auto;
+        columns: 3;
     }
 
     .contact-paragraph {
@@ -305,7 +311,7 @@ button:hover {
         align-items: center;
         gap: 1%;
         margin: auto;
-        }
+    }
 
     .contact-form {
         width: 90%;
@@ -330,10 +336,24 @@ button:hover {
         margin: 10px auto;
         padding: 10px 0;
     }
-    
+
     #contactformtitle {
         text-align: left;
         font-weight: 200;
         padding: 10px 0;
+    }
+}
+
+
+/* Laptop */
+
+@media (min-width: 1024px) {
+
+    body {
+        padding: 1vw 10vw;
+    }
+
+    .gallery-container {
+        columns: 3;
     }
 }
