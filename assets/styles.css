@@ -145,6 +145,13 @@ footer p {
     font-weight: 500;
 }
 
+/* Source: https://maps.app.goo.gl/o1r1T6oWEwEaX2jp9 */
+
+#google-maps {
+    width: 100%;
+    height: 400px;
+}
+
 /* Begin of Gallery  */
 
 .gallery-container {
