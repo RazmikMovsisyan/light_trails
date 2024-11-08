@@ -360,7 +360,7 @@ button:hover {
 
 /* 4K- 2560 */
 
-@media (max-width: 2560px) {
+@media (min-width: 2560px) {
 
     figure {
         width: 100%;
