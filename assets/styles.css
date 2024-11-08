@@ -97,7 +97,7 @@ footer>ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 10px 0;
+    padding: 10px 0 20px 0;
     gap: 15px;
 }
 
@@ -356,4 +356,27 @@ button:hover {
     .gallery-container {
         columns: 3;
     }
+}
+
+/* 4K- 2560 */
+
+@media (min-width: 2560px) {
+
+    figure {
+        width: 100%;
+        height: auto;
+    }
+
+    section {
+        font-size: xx-large;
+    }
+    
+    footer a {
+        font-size: x-large;
+    }
+
+    .logo, nav>ul, footer>ul {
+
+        font-size: x-large;
+        }
 }
