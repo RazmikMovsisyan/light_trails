@@ -56,7 +56,10 @@ From the romance of weddings to the uniqueness of individual portraits and the v
 ## **Features**
 
 #### **Header and Navigation**  
-The header includes a responsive navigation bar that adapts seamlessly to different screen sizes, providing quick access to each main section of the site. On the mobile version, the menu is centered with the logo positioned above for a balanced visual design.
+The header includes a responsive navigation bar that adapts seamlessly to different screen sizes, providing quick access to each main section of the site.
+On the mobile version, the menu is centered with the logo positioned above for a balanced visual design.
+
+The menu elements have a `:hover` effect and remain underlined to indicate the page you're currently on.
 
 ![header-of-website](/assets/readme/header.png)
 
