@@ -2,7 +2,7 @@
 
 [Click here to go to the Live Project](https://razmikmovsisyan.github.io/light_trails/)
 
-![Responsice Mockup]()
+![Responsice Mockup](https://github.com/RazmikMovsisyan/light_trails/blob/main/assets/readme/am-i-responsive.png?raw=true)
 
 Welcome to Light Trails Photography! 
 We are dedicated to capturing life’s most meaningful moments with an artful eye and creative approach. 
