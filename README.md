@@ -15,12 +15,14 @@ From the romance of weddings to the uniqueness of individual portraits and the v
     - [**Site Owner Goals**](#site-owner-goals)
     - [**User Stories**](#user-stories)
   - [**Features**](#features)
-    - [**Responsive Design**](#responsive-design)
-    - [**Home Page**](#home-page)
-    - [**Gallery**](#gallery)
-    - [**Contact Form**](#contact-form)
-    - [**Navigation & Footer**](#navigation--footer)
+    - [**Header and Navigation**](#header-and-navigation)
+    - [**Main Photos**](#main-photos)
+    - [**Welcome Section**](#welcome-section)
+    - [**Footer**](#footer)
+    - [**Gallery and Photo Layout**](#gallery-and-photo-layout)
+    - [**Contact Page**](#contact-page)
     - [**Accessibility-Focused**](#accessibility-focused)
+  - [**Future Enhancements**](#future-enhancements)
 
 ## **Planning**
 
@@ -44,21 +46,38 @@ From the romance of weddings to the uniqueness of individual portraits and the v
 
 ## **Features**
 
-#### **Responsive Design** 
-Built with Mobile-First approach to adapt seamlessly across devices, offering an optimal viewing experience on mobile, tablet, and desktop screens.
+#### **Header and Navigation**  
+The header includes a responsive navigation bar that adapts seamlessly to different screen sizes, providing quick access to each main section of the site. On the mobile version, the menu is centered with the logo positioned above for a balanced visual design.
 
-#### **Home Page:** 
-Welcomes visitors with a brief introduction to Light Trails Photography and highlights the services offered.
+#### **Main Photos**  
+The three featured photos have a subtle zoom hover effect, each accompanied by a caption. This section is fully responsive, displaying three columns on tablet, laptop, and desktop screens, and adjusting to a single-column layout on mobile.
 
-#### **Gallery:** 
-Showcases curated galleries for weddings, portraits, and lifestyle shots to give visitors a taste of the high-quality photography style.
+#### **Welcome Section**  
+Below the header, a welcoming message introduces visitors to Light Trails Photography, highlighting the services offered in a concise and engaging way.
 
-#### **Contact Form:** 
-Provides a direct way for visitors to inquire about services, ensuring easy communication.
+#### **Footer**  
+The footer features links to social media profiles, site navigation, and additional resources. Designed with simplicity in mind, it offers accessible navigation across all devices, including a call-to-action for visitors to send an email or make a direct call.
 
-#### **Navigation & Footer:** 
-Consistent and accessible navigation and footer with CTA to send a direct E-Mail or make a phone call.
+#### **Gallery and Photo Layout**  
+The gallery showcases curated collections for weddings, portraits, and lifestyle photography, providing a glimpse into the high-quality work. The gallery displays images in a grid format, adapting to a single-column layout on mobile and a three-column layout on larger screens for optimal viewing.
 
-#### **Accessibility Focused:** 
-Incorporates accessible navigation and content for an inclusive user experience.
+#### **Contact Page**
+A straightforward contact form invites visitors to reach out easily, enabling them to inquire about services directly for hassle-free communication.
+The contact form is designed with accessibility in mind. All input elements, including the textarea, are required fields to ensure complete information before sending a message. The form is fully functional, using a `POST` parameter that directs submissions to the Code Institute submission page.
+
+Below, you will find a fully functional embedded Google Maps iframe, optimized for navigation across all devices.
+
+
+#### **Accessibility Focused** 
+Main Photos are design with aria label.
+Also footer includes aria labelled social media links that open in a new window, as well as email and telephone links for direct communication, along with a contact form to ensure reliable communication with the website owner.
+
+## Future Enhancements
+
+This website has all the essential features to make it a functional minimum viable product, ready for real-world use. However, there is still a lot of potential for further enhancements and additional features. Here are a few ideas:
+
+- Add a blog section for photo stories and travel experiences.
+- Implement a lightbox feature for fullscreen photo viewing.
+- Create a dynamic gallery with filtering options by location or theme.
+- Implementing additional accessibility improvements, such as keyboard navigation and optimized screen reader support.
 
