@@ -2,9 +2,10 @@
 
 [Click here to go to the Live Project](https://razmikmovsisyan.github.io/light_trails/)
 
-![Responsice Mockup](https://github.com/RazmikMovsisyan/light_trails/blob/main/assets/readme/am-i-responsive.png?raw=true)
+![Responsice Mockup](/assets/readme/am-i-responsive.png)
 
-Welcome to Light Trails Photography! 
+Welcome to Light Trails Photography!
+
 We are dedicated to capturing life’s most meaningful moments with an artful eye and creative approach. 
 Specializing in weddings, portraits, and fashion photography, our passion lies in creating images that are not only beautiful but also deeply personal. 
 From the romance of weddings to the uniqueness of individual portraits and the vibrancy of everyday life, each photograph is crafted to reflect authentic emotions and stories. Let us help you preserve your memories in timeless, evocative images that you will cherish forever.
@@ -57,6 +58,8 @@ From the romance of weddings to the uniqueness of individual portraits and the v
 #### **Header and Navigation**  
 The header includes a responsive navigation bar that adapts seamlessly to different screen sizes, providing quick access to each main section of the site. On the mobile version, the menu is centered with the logo positioned above for a balanced visual design.
 
+![header-of-website](/assets/readme/header.png)
+
 #### **Main Photos**  
 The three featured photos have a subtle zoom hover effect, each accompanied by a caption. This section is fully responsive, displaying three columns on tablet, laptop, and desktop screens, and adjusting to a single-column layout on mobile.
 
@@ -87,6 +90,8 @@ Dark mode is popular because it reduces eye strain, especially in low-light envi
 Many users prefer it for comfort, and its popularity in apps like Twitter and YouTube has made it more widely adopted. Additionally, offering dark mode as an option gives users more control over their browsing experience.
 
 For the color scheme, I selected a harmonious and minimalistic blend of black and dark grey, with a mix of black coffee (the background) and white milk (the text color), drawing inspiration from one of the most beloved beverages: coffee/ cappuccino.
+
+![color-scheme](/assets/readme/color-scheme.png)
 
 ## Fonts
 
