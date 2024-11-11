@@ -2,6 +2,8 @@
 
 [Click here to go to the Live Project](https://razmikmovsisyan.github.io/light_trails/)
 
+![Responsice Mockup]()
+
 Welcome to Light Trails Photography! 
 We are dedicated to capturing life’s most meaningful moments with an artful eye and creative approach. 
 Specializing in weddings, portraits, and fashion photography, our passion lies in creating images that are not only beautiful but also deeply personal. 
@@ -86,7 +88,7 @@ Many users prefer it for comfort, and its popularity in apps like Twitter and Yo
 
 For the color scheme, I selected a harmonious and minimalistic blend of black and dark grey, with a mix of black coffee (the background) and white milk (the text color), drawing inspiration from one of the most beloved beverages: coffee/ cappuccino.
 
-## Font
+## Fonts
 
 I chose the Google font Montserrat because of its modern, clean, and versatile design. It offers excellent readability and a professional, yet approachable aesthetic. Its geometric style works well for both headings and body text, giving your site a contemporary feel. Montserrat is also widely supported across devices and browsers, ensuring consistency and accessibility for all users. 
 Sans-Serif as the fallback font to ensure that, if Montserrat isn't available, a clean, modern, and easily readable font is used. Sans-serif fonts are also widely supported across devices and browsers, maintaining a legible appearance, even if the primary font fails to load.
