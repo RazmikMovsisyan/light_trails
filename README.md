@@ -56,12 +56,18 @@ From the romance of weddings to the uniqueness of individual portraits and the v
 ## **Features**
 
 #### **Header and Navigation**  
-The header includes a responsive navigation bar that adapts seamlessly to different screen sizes, providing quick access to each main section of the site.
+The header includes a responsive navigation bar with a text logo on the left, that adapts seamlessly to different screen sizes, providing quick access to each main section of the site.
 On the mobile version, the menu is centered with the logo positioned above for a balanced visual design.
 
 The menu elements have a `:hover` effect and remain underlined to indicate the page you're currently on.
 
 ![header-of-website](/assets/readme/header.png)
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <img src="assets/readme/mobile/mobile-header1.png" style="width: 32%;"/>
+  <img src="assets/readme/mobile/mobile-header2.png" style="width: 32%;"/>
+  <img src="assets/readme/mobile/mobile-header3.png" style="width: 32%;"/>
+</div>
 
 #### **Main Photos**  
 The three featured photos have a subtle zoom hover effect, each accompanied by a caption. This section is fully responsive, displaying three columns on tablet, laptop, and desktop screens, and adjusting to a single-column layout on mobile.
@@ -115,8 +121,12 @@ This website has all the essential features to make it a functional minimum viab
 ## Credits
 
 - [Am I Responsive](https://ui.dev/amiresponsive)
+Used to create a mockup for testing website responsiveness on various devices.
 - [Google Fonts](https://fonts.google.com/)
+Used for the Montserrat font on the site.
 - [Google Maps](https://maps.google.com/)
-- [Unsplash](https://unsplash.com/)
-- [Icons8](https://icons8.com/)
+Embedded map for location display and navigation.
+- [Unsplash](https://unsplash.com/) Free images used on the site.
+- [Font Awesome](https://fontawesome.com/) Social Media Icons on Footer.
+- [Icons8](https://icons8.com/) Favicon.
 
