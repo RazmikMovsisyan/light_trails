@@ -22,7 +22,13 @@ From the romance of weddings to the uniqueness of individual portraits and the v
     - [**Gallery and Photo Layout**](#gallery-and-photo-layout)
     - [**Contact Page**](#contact-page)
     - [**Accessibility-Focused**](#accessibility-focused)
+  - [**Color Scheme**](#color-scheme)
+  - [**Fonts**](#fonts)
   - [**Future Enhancements**](#future-enhancements)
+  - [**Credits**](#credits)
+
+
+
 
 ## **Planning**
 
@@ -72,12 +78,35 @@ Below, you will find a fully functional embedded Google Maps iframe, optimized f
 Main Photos are design with aria label.
 Also footer includes aria labelled social media links that open in a new window, as well as email and telephone links for direct communication, along with a contact form to ensure reliable communication with the website owner.
 
+## Color Scheme
+
+Using [colors.co](https://coolors.co/252525-ad8e70-ffffff) for the website, I opted for a modern and compact solution that is visually appealing. 
+Dark mode is popular because it reduces eye strain, especially in low-light environments, and saves battery life on OLED screens. It offers a sleek, contemporary aesthetic, making images and content stand out more clearly. 
+Many users prefer it for comfort, and its popularity in apps like Twitter and YouTube has made it more widely adopted. Additionally, offering dark mode as an option gives users more control over their browsing experience.
+
+For the color scheme, I selected a harmonious and minimalistic blend of black and dark grey, with a mix of black coffee (the background) and white milk (the text color), drawing inspiration from one of the most beloved beverages: coffee/ cappuccino.
+
+## Font
+
+I chose the Google font Montserrat because of its modern, clean, and versatile design. It offers excellent readability and a professional, yet approachable aesthetic. Its geometric style works well for both headings and body text, giving your site a contemporary feel. Montserrat is also widely supported across devices and browsers, ensuring consistency and accessibility for all users. 
+Sans-Serif as the fallback font to ensure that, if Montserrat isn't available, a clean, modern, and easily readable font is used. Sans-serif fonts are also widely supported across devices and browsers, maintaining a legible appearance, even if the primary font fails to load.
+
+
 ## Future Enhancements
 
 This website has all the essential features to make it a functional minimum viable product, ready for real-world use. However, there is still a lot of potential for further enhancements and additional features. Here are a few ideas:
 
-- Add a blog section for photo stories and travel experiences.
 - Implement a lightbox feature for fullscreen photo viewing.
+- Add a blog section for photo stories and travel experiences.
 - Create a dynamic gallery with filtering options by location or theme.
 - Implementing additional accessibility improvements, such as keyboard navigation and optimized screen reader support.
+- Add the following pages and functions: Terms and Conditions, Imprint, Privacy Policy, Cookies, Error 404 Page and a search function.
+
+## Credits
+
+- [Am I Responsive](https://ui.dev/amiresponsive)
+- [Google Fonts](https://fonts.google.com/)
+- [Google Maps](https://maps.google.com/)
+- [Unsplash](https://unsplash.com/)
+- [Icons8](https://icons8.com/)
 
