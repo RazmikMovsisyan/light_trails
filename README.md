@@ -36,6 +36,7 @@ From the romance of weddings to the uniqueness of individual portraits and the v
       - [**CSS**](#css)
     - [**Bugs**](#css)
     - [**Lighthouse**](#lighthouse)
+  - [**Deployment**](#deployment)
   - [**Future Enhancements**](#future-enhancements)
   - [**Credits**](#credits)
 
@@ -229,6 +230,18 @@ Unfixed Bugs:
 #### Lighthouse  
 ![Lighthouse Audit]()   
 I used the Chrome Lighthouse tool and received optimal scores for performance, accessibility, best practices and SEO.
+
+
+## **Deployment**
+
+I followed Code Institue's Love Running Tutorial tip and deployed my website early. The steps to deploying a website on GitHub pages are:
+
+1. Open the [repository](https://github.com/RazmikMovsisyan/light_trails) and go to the **Settings** tab.
+2. Navigate to the **Pages** tab in the left menu.
+3. Choose **Deploy from a branch** and select the according branch, *main* in my case.
+4. Click save. The link to the deployed website can then be found in the [repository](https://github.com/RazmikMovsisyan/light_trails) on the right menu under **Environments**.
+
+The link to my live site is: [Light Trails](https://github.com/RazmikMovsisyan/light_trails)
 
 ## Future Enhancements
 
