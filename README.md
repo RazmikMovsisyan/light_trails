@@ -194,9 +194,15 @@ Using the input method, I copied and pasted the code of `index.html`, `gallery.h
 
 ![html-validator-space-error](assets/readme/html-css-validator/html-validator-space-error.png)
 ![html-validator-google-maps-iframe-error](assets/readme/html-css-validator/html-validator-google-maps-iframe-error.png)
-![html-validator-outline-error-homepage](assets/readme/html-css-validator/html-validator-outline-error-homepage.png)
-![html-validator-outline-error-contact-page](assets/readme/html-css-validator/html-validator-outline-error-contact-page.png)
 
+##### `index.html`
+![html-validator-outline-error-homepage](assets/readme/html-css-validator/html-validator-outline-error-homepage.png)
+![alt text](assets/readme/html-css-validator/html-validator-outline-fix-homepage.png)
+
+##### `contact.html`
+
+![html-validator-outline-error-contact-page](assets/readme/html-css-validator/html-validator-outline-error-contact-page.png)
+![alt text](assets/readme/html-css-validator/html-validator-outline-fix-contact-page.png)
 
 
 After fixing them accordingly, I repeated the process and found no further errors:
