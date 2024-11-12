@@ -67,9 +67,9 @@ The menu elements have a `:hover` effect and remain underlined to indicate the p
 
 **Mobile Version**
 <div style="display: flex; justify-content: space-evenly; align-items: center; max-width: 100%">
-  <img src="assets/readme/mobile/mobile-header3.png" alt="homepage-mobile-version" style="width: 33%;"/>
-  <img src="assets/readme/mobile/mobile-header2.png" alt="gallery-mobile-version" style="width: 33%;"/>
-  <img src="assets/readme/mobile/mobile-header1.png" alt="contact-mobile-version" style="width: 33%;"/>
+  <img src="assets/readme/mobile/mobile-header3.png" alt="homepage-mobile-version" style="width: 32%;"/>
+  <img src="assets/readme/mobile/mobile-header2.png" alt="gallery-mobile-version" style="width: 32%;"/>
+  <img src="assets/readme/mobile/mobile-header1.png" alt="contact-mobile-version" style="width: 32%;"/>
 </div>
 
 
@@ -83,9 +83,9 @@ The three featured photos have a subtle zoom hover effect, each accompanied by a
 **Mobile Version**
 
 <div style="display: flex; justify-content: space-evenly; align-items: center; max-width: 100%">
-  <img src="assets/readme/mobile/mobile-version-main-photos-column1.png" alt="homepage-main-photos-mobile-version" style="width: 33%;"/>
-  <img src="assets/readme/mobile/mobile-version-main-photos-column2.png" alt="homepage-main-photos-mobile-version" style="width: 33%;"/>
-  <img src="assets/readme/mobile/mobile-version-main-photos-column3.png" alt="homepage-main-photos-mobile-version" style="width: 33%;"/>
+  <img src="assets/readme/mobile/mobile-version-main-photos-column1.png" alt="homepage-main-photos-mobile-version" style="width: 32%;"/>
+  <img src="assets/readme/mobile/mobile-version-main-photos-column2.png" alt="homepage-main-photos-mobile-version" style="width: 32%;"/>
+  <img src="assets/readme/mobile/mobile-version-main-photos-column3.png" alt="homepage-main-photos-mobile-version" style="width: 32%;"/>
 </div>
 
 #### **Welcome Section**  
@@ -113,6 +113,9 @@ The footer features links to social media profiles, site navigation, and additio
 
 #### **Gallery and Photo Layout**  
 The gallery showcases curated collections for weddings, portraits, and lifestyle photography, providing a glimpse into the high-quality work. The gallery displays images in a grid format, adapting to a single-column layout on mobile and a three-column layout on larger screens for optimal viewing.
+
+![larger-screens-gallery](assets/readme/larger-screens-gallery1.png)
+![larger-screens-gallery](assets/readme/larger-screens-gallery2.png)
 
 #### **Contact Page**
 A straightforward contact form invites visitors to reach out easily, enabling them to inquire about services directly for hassle-free communication.
