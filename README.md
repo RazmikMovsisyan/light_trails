@@ -37,6 +37,8 @@ From the romance of weddings to the uniqueness of individual portraits and the v
     - [**Bugs**](#css)
     - [**Lighthouse**](#lighthouse)
   - [**Deployment**](#deployment)
+  - [**Version Control**](#version-control)
+  - [**Development Process and Commands**](#development-process-and-commands)
   - [**Future Enhancements**](#future-enhancements)
   - [**Credits**](#credits)
 
@@ -199,12 +201,16 @@ Using the input method, I copied and pasted the code of `index.html`, `gallery.h
 ![html-validator-google-maps-iframe-error](assets/readme/html-css-validator/html-validator-google-maps-iframe-error.png)
 
 #### index.html
+
+**Error:**
 ![html-validator-outline-error-homepage](assets/readme/html-css-validator/html-validator-outline-error-homepage.png)
+**Fix:**
 ![alt text](assets/readme/html-css-validator/html-validator-outline-fix-homepage.png)
 
 #### contact.html
-
+**Error:**
 ![html-validator-outline-error-contact-page](assets/readme/html-css-validator/html-validator-outline-error-contact-page.png)
+**Fix:**
 ![alt text](assets/readme/html-css-validator/html-validator-outline-fix-contact-page.png)
 
 
@@ -241,8 +247,20 @@ I followed Code Institue's Love Running Tutorial tip and deployed my website ear
 3. Choose **Deploy from a branch** and select the according branch, *main* in my case.
 4. Click save. The link to the deployed website can then be found in the [repository](https://github.com/RazmikMovsisyan/light_trails) on the right menu under **Environments**.
 
-The link to my live site is: [Light Trails](https://github.com/RazmikMovsisyan/light_trails)
+The link to my live site is: [Light Trails](https://razmikmovsisyan.github.io/light_trails/)
 
+## Version Control
+* The sourse of code is stored in the [GitHub](https://github.com/) page.
+* The repository contains a single branch, and all code has been submitted and commited as it was written, to ensure a good understanding. The repository can be found at this [Link](https://github.com/RazmikMovsisyan/light_trails), and can be downloaded or cloned for further development.
+
+## Development Process and Commands
+
+- I started the program and repository by using the [gitpod template](https://github.com/Code-Institute-Org/gitpod-full-template) provided by the Code Insitute.  
+- Then I regularly staged my changes using the command `git add <filename>` or `git add .` and then committed the staged changes to my local repository using `git commit -m 'short descriptive message here'`. 
+- Finally, I would push the commits from my local repository up to the Github repository using the command `git push`.
+- With every push, Github automatically deploys my latest commit from the 'main' branch to the Github pages.
+
+   
 ## Future Enhancements
 
 This website has all the essential features to make it a functional minimum viable product, ready for real-world use. However, there is still a lot of potential for further enhancements and additional features. Here are a few ideas:
