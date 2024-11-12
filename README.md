@@ -31,6 +31,8 @@ From the romance of weddings to the uniqueness of individual portraits and the v
     - [**Manual Testing**](#manual-testing)
     - [**Validation and Issues**](#validation-and-issues)
       - [**HTML**](#html)
+          - [**index.html**](#indexhtml)
+          - [**contact.html**](#contacthtml)
       - [**CSS**](#css)
     - [**Bugs**](#css)
     - [**Lighthouse**](#lighthouse)
@@ -188,18 +190,18 @@ Sans-Serif as the fallback font to ensure that, if Montserrat isn't available, a
 
 ### Validation and Issues
 
-#### HTML  
+### HTML  
 
 Using the input method, I copied and pasted the code of `index.html`, `gallery.html`, and `contact.html`, encountering the following issues, as seen in the screenshots:
 
 ![html-validator-space-error](assets/readme/html-css-validator/html-validator-space-error.png)
 ![html-validator-google-maps-iframe-error](assets/readme/html-css-validator/html-validator-google-maps-iframe-error.png)
 
-##### `index.html`
+#### index.html
 ![html-validator-outline-error-homepage](assets/readme/html-css-validator/html-validator-outline-error-homepage.png)
 ![alt text](assets/readme/html-css-validator/html-validator-outline-fix-homepage.png)
 
-##### `contact.html`
+#### contact.html
 
 ![html-validator-outline-error-contact-page](assets/readme/html-css-validator/html-validator-outline-error-contact-page.png)
 ![alt text](assets/readme/html-css-validator/html-validator-outline-fix-contact-page.png)
