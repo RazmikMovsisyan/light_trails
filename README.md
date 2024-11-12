@@ -27,6 +27,13 @@ From the romance of weddings to the uniqueness of individual portraits and the v
     - [**Accessibility-Focused**](#accessibility-focused)
   - [**Color Scheme**](#color-scheme)
   - [**Fonts**](#fonts)
+  - [**Testing**](#testing)
+    - [**Manual Testing**](#manual-testing)
+    - [**Validation and Issues**](#validation-and-issues)
+    - [**HTML**](#html)
+    - [**CSS**](#css)
+    - [**Bugs**](#css)
+    - [**Lighthouse**](#lighthouse)
   - [**Future Enhancements**](#future-enhancements)
   - [**Credits**](#credits)
 
@@ -37,21 +44,21 @@ From the romance of weddings to the uniqueness of individual portraits and the v
 
 ### **Site Owner Goals**
 
-- Provide a seamless user experience for potential clients or photography enthusiasts.
-- Highlight my best photos in an organized gallery.
-- Showcase photography in a professional, accessible format.
-- Reflect a high level of professionalism.
-- Provide an easy way for users to connect
+- As a site owner, I want to ensure a seamless experience for potential clients and photography enthusiasts.
+- As a site owner, I want to display my top photos in a well-organized gallery.
+- As a site owner, I want to present my photography in a professional and accessible format.
+- As a site owner, I want my website to convey a high level of professionalism.
+- As a site owner, I want to make it easy for users to reach out and connect with me.
 
 
 ### **User Stories**
 
-- View the website seamlessly across multiple devices.
-- Easy navigation through different photo collections.
-- Discover and view unique way of photography
-- Experience a well-organized, visually appealing gallery
-- Learn more about the photographer.
-- See a contact form to get in touch.
+- As a user, I want to browse the website effortlessly on any device.
+- As a user, I want simple navigation through various photo collections.
+- As a user, I want to explore and enjoy unique photography styles.
+- As a user, I want a visually engaging and well-structured gallery experience.
+- As a user, I want to learn about the photographer’s work.
+- As a user, I want access to a contact form for easy communication.
 
 ## **Features**
 
@@ -170,6 +177,50 @@ For the color scheme, I selected a harmonious and minimalistic blend of black an
 I chose the Google font Montserrat because of its modern, clean, and versatile design. It offers excellent readability and a professional, yet approachable aesthetic. Its geometric style works well for both headings and body text, giving your site a contemporary feel. Montserrat is also widely supported across devices and browsers, ensuring consistency and accessibility for all users. 
 Sans-Serif as the fallback font to ensure that, if Montserrat isn't available, a clean, modern, and easily readable font is used. Sans-serif fonts are also widely supported across devices and browsers, maintaining a legible appearance, even if the primary font fails to load.
 
+## Testing
+
+### Manual Testing  
+- I tested the responsive design of the website on Safari, Chrome, Firefox, and Edge using a Windows OS.
+- I then shared the website with family members to confirm functionality across different devices and gathered their feedback on user experience.
+- I manually tested all internal and external links on the website and made sure that external links open in a new tab.
+- I ensured that all contact form fields require valid inputs and confirmed the form submission directs to the Code Institute submission page.
+- While building the project I have used Safari Browser on my MacBook and iOS device.
+
+### Validation and Issues
+
+#### HTML  
+
+Using the input method, I copied and pasted the code of `index.html`, `gallery.html`, and `contact.html`, encountering the following issues, as seen in the screenshots:
+
+![html-validator-space-error](assets/readme/html-css-validator/html-validator-space-error.png)
+![html-validator-google-maps-iframe-error](assets/readme/html-css-validator/html-validator-google-maps-iframe-error.png)
+![html-validator-outline-error-homepage](assets/readme/html-css-validator/html-validator-outline-error-homepage.png)
+![html-validator-outline-error-contact-page](assets/readme/html-css-validator/html-validator-outline-error-contact-page.png)
+
+
+
+After fixing them accordingly, I repeated the process and found no further errors:
+
+![html-validator-no-error](assets/readme/html-css-validator/html-validator-no-error.png)
+
+#### CSS  
+
+![css-validator-no-error](assets/readme/html-css-validator/css-validator-no-error.png)
+
+## Bugs
+
+Fixed Bugs:
+
+- Path issue with loading the stylesheet and other image sources on the deployed version.
+Unfixed Bugs:
+
+Unfixed Bugs:
+
+- There are no unfixed bugs.
+
+#### Lighthouse  
+![Lighthouse Audit]()   
+I used the Chrome Lighthouse tool and received optimal scores for performance, accessibility, best practices and SEO.
 
 ## Future Enhancements
 
