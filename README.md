@@ -61,19 +61,43 @@ On the mobile version, the menu is centered with the logo positioned above for a
 
 The menu elements have a `:hover` effect and remain underlined to indicate the page you're currently on.
 
+**Tablet, Laptop and Desktop Version**
+
 ![header-of-website](/assets/readme/header.png)
 
+**Mobile Version**
 <div style="display: flex; justify-content: space-between; align-items: center;">
-  <img src="assets/readme/mobile/mobile-header1.png" style="width: 32%;"/>
-  <img src="assets/readme/mobile/mobile-header2.png" style="width: 32%;"/>
-  <img src="assets/readme/mobile/mobile-header3.png" style="width: 32%;"/>
+  <img src="assets/readme/mobile/mobile-header3.png" alt=" homepage-mobile-version"style="width: 32%;"/>
+  <img src="assets/readme/mobile/mobile-header2.png" alt=" gallery-mobile-version" style="width: 32%;"/>
+  <img src="assets/readme/mobile/mobile-header1.png" alt=" contact-mobile-version" style="width: 32%;"/>
 </div>
+
 
 #### **Main Photos**  
 The three featured photos have a subtle zoom hover effect, each accompanied by a caption. This section is fully responsive, displaying three columns on tablet, laptop, and desktop screens, and adjusting to a single-column layout on mobile.
 
+**Tablet, Laptop and Desktop Version**
+
+![homepage-main-photos-larger-screens](assets/readme/main-photos.png)
+
+**Mobile Version**
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <img src="assets/readme/mobile/mobile-version-main-photos-column1.png" alt="homepage-main-photos-mobile-version" style="width: 32%;"/>
+  <img src="assets/readme/mobile/mobile-version-main-photos-column2.png" alt="homepage-main-photos-mobile-version" style="width: 32%;"/>
+  <img src="assets/readme/mobile/mobile-version-main-photos-column3.png" alt="homepage-main-photos-mobile-version" style="width: 32%;"/>
+</div>
+
 #### **Welcome Section**  
 Below the header, a welcoming message introduces visitors to Light Trails Photography, highlighting the services offered in a concise and engaging way.
+
+**Tablet, Laptop, Desktop and Mobile Version**
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <img src="assets/readme/larger-screens-welcome-message.png" alt="larger-screens-welcome-message" style="width: 70%;"/>
+  <img src="assets/readme/mobile/mobile-version-welcome-message.png" alt="" style="width: 29%;"/>
+</div>
+
 
 #### **Footer**  
 The footer features links to social media profiles, site navigation, and additional resources. Designed with simplicity in mind, it offers accessible navigation across all devices, including a call-to-action for visitors to send an email or make a direct call.
