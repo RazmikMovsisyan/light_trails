@@ -70,7 +70,7 @@ This effect is displayed on all menu items, regardless of whether they are curre
 ![header-of-website](/assets/readme/header-hover.png)
 
 **Mobile Version**
-<div style="display: flex; justify-content: space-evenly; align-items: center; max-width: 100%">
+<div style="display: flex; justify-content: space-evenly; align-items: center; max-width: 100%;">
   <img src="assets/readme/mobile/mobile-header3.png" alt="homepage-mobile-version" style="width: 32%;"/>
   <img src="assets/readme/mobile/mobile-header2.png" alt="gallery-mobile-version" style="width: 32%;"/>
   <img src="assets/readme/mobile/mobile-header1.png" alt="contact-mobile-version" style="width: 32%;"/>
@@ -86,7 +86,7 @@ The three featured photos have a subtle zoom hover effect, each accompanied by a
 
 **Mobile Version**
 
-<div style="display: flex; justify-content: space-evenly; align-items: center; max-width: 100%">
+<div style="display: flex; justify-content: space-evenly; align-items: center; max-width: 100%;">
   <img src="assets/readme/mobile/mobile-version-main-photos-column1.png" alt="homepage-main-photos-mobile-version" style="width: 32%;"/>
   <img src="assets/readme/mobile/mobile-version-main-photos-column2.png" alt="homepage-main-photos-mobile-version" style="width: 32%;"/>
   <img src="assets/readme/mobile/mobile-version-main-photos-column3.png" alt="homepage-main-photos-mobile-version" style="width: 32%;"/>
@@ -97,7 +97,7 @@ Below the header, a welcoming message introduces visitors to Light Trails Photog
 
 **Tablet, Laptop, Desktop and Mobile Version**
 
-<div style="display: flex; justify-content: space-between; align-items: center; max-width: 100%">
+<div style="display: flex; justify-content: space-between; align-items: center; max-width: 100%;">
   <img src="assets/readme/larger-screens-welcome-message.png" alt="larger-screens-welcome-message" style="width: 70%;"/>
   <img src="assets/readme/mobile/mobile-version-welcome-message.png" alt="mobile-version-welcome-message" style="width: 29%;"/>
 </div>
@@ -125,7 +125,7 @@ The gallery showcases curated collections for weddings, portraits, and lifestyle
 
 **Mobile Version**
 
-<div style="display: flex; justify-content: space-evenly; align-items: center; max-width: 100%">
+<div style="display: flex; justify-content: space-evenly; align-items: center; max-width: 100%;">
   <img src="assets/readme/mobile/mobile-gallery1.png" alt="mobile-gallery1" style="width: 32%;"/>
   <img src="assets/readme/mobile/mobile-gallery2.png" alt="mobile-gallery2" style="width: 32%;"/>
   <img src="assets/readme/mobile/mobile-gallery3.png" alt="mobile-gallery3" style="width: 32%;"/>
@@ -136,6 +136,19 @@ A straightforward contact form invites visitors to reach out easily, enabling th
 The contact form is designed with accessibility in mind. All input elements, including the textarea, are required fields to ensure complete information before sending a message. The form is fully functional, using a `POST` parameter that directs submissions to the Code Institute submission page.
 
 Below, you will find a fully functional embedded Google Maps iframe, optimized for navigation across all devices.
+
+**Tablet, Laptop, Desktop Version**
+
+![larger-screen-contact-page](assets/readme/larger-screens-contact-page.png)
+
+**Mobile Version**
+
+<div style="display: flex; justify-content: space-evenly; align-items: center; max-width: 100%">
+  <img src="assets/readme/mobile/mobile-contact-page1.png" alt="mobile-contact-page1" style="width: 32%;"/>
+  <img src="assets/readme/mobile/mobile-contact-page2.png" alt="mobile-contact-page2" style="width: 32%;"/>
+  <img src="assets/readme/mobile/mobile-contact-page3.png" alt="mobile-contact-page3" style="width: 32%;"/>
+</div>
+
 
 
 #### **Accessibility Focused** 
