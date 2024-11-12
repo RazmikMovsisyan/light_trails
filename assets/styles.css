@@ -27,6 +27,10 @@ section {
     font-size: smaller;
 }
 
+section h2, .contact-paragraph h2 {
+    font-size: medium;
+}
+
 h1,
 h2,
 h3,
@@ -209,7 +213,7 @@ footer p {
 }
 
 .contact-paragraph h1,
-.contact-paragraph h3,
+.contact-paragraph h2,
 .contact-paragraph p {
     background-color: #000000a1;
     font-weight: 300;
