@@ -59,11 +59,15 @@ From the romance of weddings to the uniqueness of individual portraits and the v
 The header includes a responsive navigation bar with a text logo on the left, that adapts seamlessly to different screen sizes, providing quick access to each main section of the site.
 On the mobile version, the menu is centered with the logo positioned above for a balanced visual design.
 
-The menu elements have a `:hover` effect and remain underlined to indicate the page you're currently on.
+The menu elements underlined to indicate the page you're currently on.
 
 **Tablet, Laptop and Desktop Version**
 
 ![header-of-website](/assets/readme/header.png)
+
+The navigation links feature a consistent `:hover` effect across all devies.
+This effect is displayed on all menu items, regardless of whether they are currently selected.
+![header-of-website](/assets/readme/header-hover.png)
 
 **Mobile Version**
 <div style="display: flex; justify-content: space-evenly; align-items: center; max-width: 100%">
@@ -114,8 +118,18 @@ The footer features links to social media profiles, site navigation, and additio
 #### **Gallery and Photo Layout**  
 The gallery showcases curated collections for weddings, portraits, and lifestyle photography, providing a glimpse into the high-quality work. The gallery displays images in a grid format, adapting to a single-column layout on mobile and a three-column layout on larger screens for optimal viewing.
 
+**Tablet, Laptop, Desktop Version**
+
 ![larger-screens-gallery](assets/readme/larger-screens-gallery1.png)
 ![larger-screens-gallery](assets/readme/larger-screens-gallery2.png)
+
+**Mobile Version**
+
+<div style="display: flex; justify-content: space-evenly; align-items: center; max-width: 100%">
+  <img src="assets/readme/mobile/mobile-gallery1.png" alt="mobile-gallery1" style="width: 32%;"/>
+  <img src="assets/readme/mobile/mobile-gallery2.png" alt="mobile-gallery2" style="width: 32%;"/>
+  <img src="assets/readme/mobile/mobile-gallery3.png" alt="mobile-gallery3" style="width: 32%;"/>
+</div>
 
 #### **Contact Page**
 A straightforward contact form invites visitors to reach out easily, enabling them to inquire about services directly for hassle-free communication.
