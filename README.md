@@ -153,13 +153,15 @@ The gallery showcases curated collections for weddings, portraits, and lifestyle
 
 #### **Contact Page**
 A straightforward contact form invites visitors to reach out easily, enabling them to inquire about services directly for hassle-free communication.
-The contact form is designed with accessibility in mind. All input elements, including the textarea, are required fields to ensure complete information before sending a message. The form is fully functional, using a `POST` parameter that directs submissions to the Code Institute submission page.
+The contact form is designed with accessibility in mind. All input elements, including the textarea, are required fields to ensure complete information before sending a message. The form is fully functional, using a `POST` parameter that directs submissions to the Code Institute submission page and returns data.
 
-Below, you will find a fully functional embedded Google Maps iframe, optimized for navigation across all devices.
+![code-institute-submission-page](assets/readme/code-institute-submission-page.png)
 
 **Tablet, Laptop, Desktop Version**
 
 ![larger-screen-contact-page](assets/readme/larger-screens-contact-page.png)
+
+Below, you will find a fully functional embedded Google Maps iframe, optimized for navigation across all devices.
 
 **Mobile Version**
 
@@ -172,7 +174,7 @@ Below, you will find a fully functional embedded Google Maps iframe, optimized f
 
 
 #### **Accessibility Focused** 
-Main Photos are design with aria label.
+All photos have alt attribute for screen readers.
 Also footer includes aria labelled social media links that open in a new window, as well as email and telephone links for direct communication, along with a contact form to ensure reliable communication with the website owner.
 
 ## Color Scheme
@@ -252,7 +254,7 @@ Unfixed Bugs:
 
 - There are no unfixed bugs.
 
-#### Lighthouse
+## Lighthouse
 
 <div style="display: flex; justify-content: space-evenly; align-items: center; max-width: 100%;">
   <img src="assets/readme/lighthouse-score-desktop-version.png" alt="lighthouse-score-desktop-version" style="width: 49%;"/>
