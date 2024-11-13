@@ -37,7 +37,7 @@ Let us help you preserve your memories in timeless, evocative images that you wi
           - [**index.html**](#indexhtml)
           - [**contact.html**](#contacthtml)
       - [**CSS**](#css)
-    - [**Bugs**](#css)
+    - [**Bugs**](#bugs)
     - [**Lighthouse**](#lighthouse)
   - [**Deployment**](#deployment)
   - [**Version Control**](#version-control)
@@ -261,6 +261,9 @@ Unfixed Bugs:
 Unfixed Bugs:
 
 - There are no unfixed bugs.
+
+![no-problems-detected](assets/readme/no-problems-detected.png)
+
 
 ## Lighthouse
 
