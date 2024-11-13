@@ -212,7 +212,7 @@ Links to PDF Files of Validated Source Codes of both HTML and CSS.
 
 ### HTML  
 
-Using the input method, I copied and pasted the code of [`index.html`](assets/readme/html-css-validator/-html-validator-index.pdf), [`gallery.html`](assets/readme/html-css-validator/html-validator-gallery.pdf), and [`contact.html`](assets/readme/html-css-validator/html-validator-contact.pdf), encountering the following issues, as seen in the screenshots:
+Using the input method, I copied and pasted the code of [`index.html`](assets/readme/html-css-validator/html-validator-index.pdf), [`gallery.html`](assets/readme/html-css-validator/html-validator-gallery.pdf), and [`contact.html`](assets/readme/html-css-validator/html-validator-contact.pdf), encountering the following issues, as seen in the screenshots:
 
 ![html-validator-space-error](assets/readme/html-css-validator/html-validator-space-error.png)
 ![html-validator-google-maps-iframe-error](assets/readme/html-css-validator/html-validator-google-maps-iframe-error.png)
@@ -252,10 +252,18 @@ Unfixed Bugs:
 
 - There are no unfixed bugs.
 
-#### Lighthouse  
-![Lighthouse Audit]()   
-I used the Chrome Lighthouse tool and received optimal scores for performance, accessibility, best practices and SEO.
+#### Lighthouse
 
+<div style="display: flex; justify-content: space-evenly; align-items: center; max-width: 100%;">
+  <img src="assets/readme/lighthouse-score-desktop-version.png" alt="lighthouse-score-desktop-version" style="width: 49%;"/>
+  <img src="assets/readme/lighthouse-score-mobile-version.png" alt="lighthouse-score-mobile-version" style="width: 49%;"/>
+</div>
+
+I used the **Chrome Lighthouse** tool and received optimal scores for performance, accessibility, best practices, and SEO on the homepage. 
+
+Using the same approach, I have built the other pages of my project. 
+
+It's important to note that Lighthouse results can vary due to factors such as network conditions, device performance, and testing environment. However, it remains a valuable tool for assessing website performance and identifying areas for improvement.
 
 ## **Deployment**
 
