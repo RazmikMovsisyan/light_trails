@@ -199,9 +199,17 @@ Sans-Serif as the fallback font to ensure that, if Montserrat isn't available, a
 
 ### Validation and Issues
 
+Links to PDF Files of Validated Source Codes of both HTML and CSS.
+
+- [`index.html`](assets/readme/html-css-validator/-html-validator-index.pdf)
+- [`gallery.html`](assets/readme/html-css-validator/html-validator-gallery.pdf)
+- [`contact.html`](assets/readme/html-css-validator/html-validator-contact.pdf)
+
+- [`styles.css`](assets/readme/html-css-validator/css-validator-css.pdf)
+
 ### HTML  
 
-Using the input method, I copied and pasted the code of `index.html`, `gallery.html`, and `contact.html`, encountering the following issues, as seen in the screenshots:
+Using the input method, I copied and pasted the code of [`index.html`](assets/readme/html-css-validator/-html-validator-index.pdf), [`gallery.html`](assets/readme/html-css-validator/html-validator-gallery.pdf), and [`contact.html`](assets/readme/html-css-validator/html-validator-contact.pdf), encountering the following issues, as seen in the screenshots:
 
 ![html-validator-space-error](assets/readme/html-css-validator/html-validator-space-error.png)
 ![html-validator-google-maps-iframe-error](assets/readme/html-css-validator/html-validator-google-maps-iframe-error.png)
@@ -225,6 +233,8 @@ After fixing them accordingly, I repeated the process and found no further error
 ![html-validator-no-error](assets/readme/html-css-validator/html-validator-no-error.png)
 
 #### CSS  
+
+Using the same method I have used **Jigsaw** to validate the [`styles.css`](assets/readme/html-css-validator/css-validator-css.pdf).
 
 ![css-validator-no-error](assets/readme/html-css-validator/css-validator-no-error.png)
 
