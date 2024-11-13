@@ -8,7 +8,8 @@ Welcome to Light Trails Photography!
 
 We are dedicated to capturing life’s most meaningful moments with an artful eye and creative approach. 
 Specializing in weddings, portraits, and fashion photography, our passion lies in creating images that are not only beautiful but also deeply personal. 
-From the romance of weddings to the uniqueness of individual portraits and the vibrancy of everyday life, each photograph is crafted to reflect authentic emotions and stories. Let us help you preserve your memories in timeless, evocative images that you will cherish forever.
+From the romance of weddings to the uniqueness of individual portraits and the vibrancy of everyday life, each photograph is crafted to reflect authentic emotions and stories. 
+Let us help you preserve your memories in timeless, evocative images that you will cherish forever.
 
 ## **Table of contents**
 
@@ -85,6 +86,7 @@ The menu elements underlined to indicate the page you're currently on.
 
 The navigation links feature a consistent `:hover` effect across all devies.
 This effect is displayed on all menu items, regardless of whether they are currently selected.
+
 ![header-of-website](/assets/readme/header-hover.png)
 
 **Mobile Version**
@@ -176,10 +178,11 @@ Also footer includes aria labelled social media links that open in a new window,
 ## Color Scheme
 
 Using [colors.co](https://coolors.co/252525-ad8e70-ffffff) for the website, I opted for a modern and compact solution that is visually appealing. 
-Dark mode is popular because it reduces eye strain, especially in low-light environments, and saves battery life on OLED screens. It offers a sleek, contemporary aesthetic, making images and content stand out more clearly. 
+Dark mode is popular because it reduces eye strain, especially in low-light environments, and saves battery life on OLED screens. It offers a sleek, contemporary aesthetic, making images and content stand out more clearly.
+
 Many users prefer it for comfort, and its popularity in apps like Twitter and YouTube has made it more widely adopted. Additionally, offering dark mode as an option gives users more control over their browsing experience.
 
-For the color scheme, I selected a harmonious and minimalistic blend of black and dark grey, with a mix of black coffee (the background) and white milk (the text color), drawing inspiration from one of the most beloved beverages: coffee/ cappuccino.
+For the color scheme, I selected a harmonious and minimalistic blend of black and dark grey, with a mix of black coffee (the background) and white milk (the text color), drawing inspiration from one of the most beloved beverages: coffee/cappuccino.
 
 ![color-scheme](/assets/readme/color-scheme.png)
 
@@ -201,7 +204,7 @@ Sans-Serif as the fallback font to ensure that, if Montserrat isn't available, a
 
 Links to PDF Files of Validated Source Codes of both HTML and CSS.
 
-- [`index.html`](assets/readme/html-css-validator/-html-validator-index.pdf)
+- [`index.html`](assets/readme/html-css-validator/html-validator-index.pdf)
 - [`gallery.html`](assets/readme/html-css-validator/html-validator-gallery.pdf)
 - [`contact.html`](assets/readme/html-css-validator/html-validator-contact.pdf)
 
@@ -209,6 +212,7 @@ Links to PDF Files of Validated Source Codes of both HTML and CSS.
 
 ### HTML  
 
+Using the input method, I copied and pasted the code of [`index.html`](assets/readme/html-css-validator/-html-validator-index.pdf), [`gallery.html`](assets/readme/html-css-validator/html-validator-gallery.pdf), and [`contact.html`](assets/readme/html-css-validator/html-validator-contact.pdf), encountering the following issues, as seen in the screenshots:
 Using the input method, I copied and pasted the code of [`index.html`](assets/readme/html-css-validator/-html-validator-index.pdf), [`gallery.html`](assets/readme/html-css-validator/html-validator-gallery.pdf), and [`contact.html`](assets/readme/html-css-validator/html-validator-contact.pdf), encountering the following issues, as seen in the screenshots:
 
 ![html-validator-space-error](assets/readme/html-css-validator/html-validator-space-error.png)
@@ -233,6 +237,8 @@ After fixing them accordingly, I repeated the process and found no further error
 ![html-validator-no-error](assets/readme/html-css-validator/html-validator-no-error.png)
 
 #### CSS  
+
+Using the same method I have used **Jigsaw** to validate the [`styles.css`](assets/readme/html-css-validator/css-validator-css.pdf).
 
 Using the same method I have used **Jigsaw** to validate the [`styles.css`](assets/readme/html-css-validator/css-validator-css.pdf).
 
@@ -288,6 +294,10 @@ This website has all the essential features to make it a functional minimum viab
 - Add the following pages and functions: Terms and Conditions, Imprint, Privacy Policy, Cookies, Error 404 Page and a search function.
 
 ## Credits
+
+I would like to thank my mentor, Marcel, for his tips and support throughout this project. I’m also grateful to the Code Institute support team, especially [Kristyna Wach](https://github.com/Cushione), for providing the weekly guidance I needed to stay on track.
+
+A special thank to my Golden Retriever, Alice, for her patience and support for allowing me spending the time with coding instead of playing with her.
 
 - [Am I Responsive](https://ui.dev/amiresponsive)
 Used to create a mockup for testing website responsiveness on various devices.
