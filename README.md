@@ -18,6 +18,7 @@ From the romance of weddings to the uniqueness of individual portraits and the v
     - [**Site Owner Goals**](#site-owner-goals)
     - [**User Stories**](#user-stories)
   - [**Features**](#features)
+    - [**Used Technologies**](#used-technologies)
     - [**Header and Navigation**](#header-and-navigation)
     - [**Main Photos**](#main-photos)
     - [**Welcome Section**](#welcome-section)
@@ -66,6 +67,11 @@ From the romance of weddings to the uniqueness of individual portraits and the v
 - As a user, I want access to a contact form for easy communication.
 
 ## **Features**
+
+#### **Used Technologies**  
+
+- **HTML:** Hyper Text Markup Language
+- **CSS:** Cascading Style Sheets
 
 #### **Header and Navigation**  
 The header includes a responsive navigation bar with a text logo on the left, that adapts seamlessly to different screen sizes, providing quick access to each main section of the site.
