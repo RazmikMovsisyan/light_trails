@@ -20,6 +20,7 @@ Let us help you preserve your memories in timeless, evocative images that you wi
     - [**User Stories**](#user-stories)
   - [**Features**](#features)
     - [**Used Technologies**](#used-technologies)
+    - [**Adaptive Layout**](#adaptive-layout)
     - [**Header and Navigation**](#header-and-navigation)
     - [**Main Photos**](#main-photos)
     - [**Welcome Section**](#welcome-section)
@@ -73,6 +74,12 @@ Let us help you preserve your memories in timeless, evocative images that you wi
 
 - **HTML:** Hyper Text Markup Language
 - **CSS:** Cascading Style Sheets
+
+#### Adaptive Layout
+
+I've created a layout with padding on both the left and right sides of the content. This ensures the items are aligned from top to bottom, and the overall layout remains consistent across different screen sizes. As the window shrinks down to a mobile version, the layout adjusts, stacking the elements vertically for a more user-friendly experience on smaller screens. This is achieved through flexbox properties and responsive design principles. 
+
+This approach is ideal because it ensures a clean, readable design that adapts to various devices, improving accessibility and usability. The distance on both sides creates a buffer, making the content less cramped and more visually appealing, while the responsive design ensures the site remains functional and aesthetically pleasing regardless of screen size.
 
 #### **Header and Navigation**  
 The header includes a responsive navigation bar with a text logo on the left, that adapts seamlessly to different screen sizes, providing quick access to each main section of the site.
@@ -190,8 +197,9 @@ For the color scheme, I selected a harmonious and minimalistic blend of black an
 
 ## Fonts
 
-I chose the Google font Montserrat because of its modern, clean, and versatile design. It offers excellent readability and a professional, yet approachable aesthetic. Its geometric style works well for both headings and body text, giving your site a contemporary feel. Montserrat is also widely supported across devices and browsers, ensuring consistency and accessibility for all users. 
-Sans-Serif as the fallback font to ensure that, if Montserrat isn't available, a clean, modern, and easily readable font is used. Sans-serif fonts are also widely supported across devices and browsers, maintaining a legible appearance, even if the primary font fails to load.
+I chose the Google font **Montserrat** because of its modern, clean, and versatile design. It offers excellent readability and a professional, yet approachable aesthetic. Its geometric style works well for both headings and body text, giving your site a contemporary feel. Montserrat is also widely supported across devices and browsers, ensuring consistency and accessibility for all users. 
+
+**Sans-Serif** as the fallback font to ensure that, if Montserrat isn't available, a clean, modern, and easily readable font is used. Sans-serif fonts are also widely supported across devices and browsers, maintaining a legible appearance, even if the primary font fails to load.
 
 ## Testing
 
