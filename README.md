@@ -70,6 +70,8 @@ Let us help you preserve your memories in timeless, evocative images that you wi
 
 ## **Features**
 
+**Light Trails** is a sleek, mobile-first developed, responsive photography portfolio that artfully presents travel photography through a minimalist, accessible design. Featuring a streamlined layout, three main pages, and social media links, it’s crafted for an elegant, user-friendly experience.
+
 #### **Used Technologies**  
 
 - **HTML:** Hyper Text Markup Language
@@ -97,12 +99,8 @@ This effect is displayed on all menu items, regardless of whether they are curre
 ![header-of-website](/assets/readme/header-hover.png)
 
 **Mobile Version**
-<div style="display: flex; justify-content: space-evenly; align-items: center; max-width: 100%;">
-  <img src="assets/readme/mobile/mobile-header3.png" alt="homepage-mobile-version" style="width: 32%;"/>
-  <img src="assets/readme/mobile/mobile-header2.png" alt="gallery-mobile-version" style="width: 32%;"/>
-  <img src="assets/readme/mobile/mobile-header1.png" alt="contact-mobile-version" style="width: 32%;"/>
-</div>
-
+| ![homepage-mobile-version](assets/readme/mobile/mobile-header3.png) | ![gallery-mobile-version](assets/readme/mobile/mobile-header2.png) | ![contact-mobile-version](assets/readme/mobile/mobile-header1.png) |
+|:---:|:---:|:---:|
 
 #### **Main Photos**  
 The three featured photos have a subtle zoom hover effect, each accompanied by a caption. This section is fully responsive, displaying three columns on tablet, laptop, and desktop screens, and adjusting to a single-column layout on mobile.
@@ -113,21 +111,18 @@ The three featured photos have a subtle zoom hover effect, each accompanied by a
 
 **Mobile Version**
 
-<div style="display: flex; justify-content: space-evenly; align-items: center; max-width: 100%;">
-  <img src="assets/readme/mobile/mobile-version-main-photos-column1.png" alt="homepage-main-photos-mobile-version" style="width: 32%;"/>
-  <img src="assets/readme/mobile/mobile-version-main-photos-column2.png" alt="homepage-main-photos-mobile-version" style="width: 32%;"/>
-  <img src="assets/readme/mobile/mobile-version-main-photos-column3.png" alt="homepage-main-photos-mobile-version" style="width: 32%;"/>
-</div>
+| ![homepage-main-photos-mobile-version](assets/readme/mobile/mobile-version-main-photos-column1.png) | ![homepage-main-photos-mobile-version](assets/readme/mobile/mobile-version-main-photos-column2.png) | ![homepage-main-photos-mobile-version](assets/readme/mobile/mobile-version-main-photos-column3.png) |
+|:---:|:---:|:---:|
+
 
 #### **Welcome Section**  
 Below the header, a welcoming message introduces visitors to Light Trails Photography, highlighting the services offered in a concise and engaging way.
 
 **Tablet, Laptop, Desktop and Mobile Version**
 
-<div style="display: flex; justify-content: space-between; align-items: center; max-width: 100%;">
-  <img src="assets/readme/larger-screens-welcome-message.png" alt="larger-screens-welcome-message" style="width: 70%;"/>
-  <img src="assets/readme/mobile/mobile-version-welcome-message.png" alt="mobile-version-welcome-message" style="width: 29%;"/>
-</div>
+| ![larger-screens-welcome-message](assets/readme/larger-screens-welcome-message.png) | ![mobile-version-welcome-message](assets/readme/mobile/mobile-version-welcome-message.png) |
+|:---:|:---:|
+
 
 
 #### **Footer**  
@@ -135,12 +130,8 @@ The footer features links to social media profiles, site navigation, and additio
 
 **Tablet, Laptop, Desktop and Mobile Version**
 
-<div style="display: flex; justify-content: space-evenly; align-items: center; max-width: 100%;">
-  <img src="assets/readme/larger-screens-footer.png" 
-  alt="larger-screens-footer" style="width: 68%;"/>
-  <img src="assets/readme/mobile/mobile-footer.png" 
-  alt="mobile-footer" style="width: 30%;"/>
-</div>
+| ![larger-screens-footer](assets/readme/larger-screens-footer.png) | ![mobile-footer](assets/readme/mobile/mobile-footer.png) |
+|:---:|:---:|
 
 #### **Gallery and Photo Layout**  
 The gallery showcases curated collections for weddings, portraits, and lifestyle photography, providing a glimpse into the high-quality work. The gallery displays images in a grid format, adapting to a single-column layout on mobile and a three-column layout on larger screens for optimal viewing.
@@ -152,11 +143,9 @@ The gallery showcases curated collections for weddings, portraits, and lifestyle
 
 **Mobile Version**
 
-<div style="display: flex; justify-content: space-evenly; align-items: center; max-width: 100%;">
-  <img src="assets/readme/mobile/mobile-gallery1.png" alt="mobile-gallery1" style="width: 32%;"/>
-  <img src="assets/readme/mobile/mobile-gallery2.png" alt="mobile-gallery2" style="width: 32%;"/>
-  <img src="assets/readme/mobile/mobile-gallery3.png" alt="mobile-gallery3" style="width: 32%;"/>
-</div>
+| ![mobile-gallery1](assets/readme/mobile/mobile-gallery1.png) | ![mobile-gallery2](assets/readme/mobile/mobile-gallery2.png) | ![mobile-gallery3](assets/readme/mobile/mobile-gallery3.png) |
+|:---:|:---:|:---:|
+
 
 #### **Contact Page**
 A straightforward contact form invites visitors to reach out easily, enabling them to inquire about services directly for hassle-free communication.
@@ -172,11 +161,8 @@ Below, you will find a fully functional embedded Google Maps iframe, optimized f
 
 **Mobile Version**
 
-<div style="display: flex; justify-content: space-evenly; align-items: center; max-width: 100%">
-  <img src="assets/readme/mobile/mobile-contact-page1.png" alt="mobile-contact-page1" style="width: 32%;"/>
-  <img src="assets/readme/mobile/mobile-contact-page2.png" alt="mobile-contact-page2" style="width: 32%;"/>
-  <img src="assets/readme/mobile/mobile-contact-page3.png" alt="mobile-contact-page3" style="width: 32%;"/>
-</div>
+| ![mobile-contact-page1](assets/readme/mobile/mobile-contact-page1.png) | ![mobile-contact-page2](assets/readme/mobile/mobile-contact-page2.png) | ![mobile-contact-page3](assets/readme/mobile/mobile-contact-page3.png) |
+|:---:|:---:|:---:|
 
 
 
@@ -267,10 +253,9 @@ Unfixed Bugs:
 
 ## Lighthouse
 
-<div style="display: flex; justify-content: space-evenly; align-items: center; max-width: 100%;">
-  <img src="assets/readme/lighthouse-score-desktop-version.png" alt="lighthouse-score-desktop-version" style="width: 49%;"/>
-  <img src="assets/readme/lighthouse-score-mobile-version.png" alt="lighthouse-score-mobile-version" style="width: 49%;"/>
-</div>
+| ![lighthouse-score-desktop-version](assets/readme/lighthouse-score-desktop-version.png) | ![lighthouse-score-mobile-version](assets/readme/lighthouse-score-mobile-version.png) |
+|:---:|:---:|
+
 
 I used the **Chrome Lighthouse** tool and received optimal scores for performance, accessibility, best practices, and SEO on the homepage. 
 
