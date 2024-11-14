@@ -44,6 +44,7 @@ Let us help you preserve your memories in timeless, evocative images that you wi
   - [**Development Process and Commands**](#development-process-and-commands)
   - [**Future Enhancements**](#future-enhancements)
   - [**Credits**](#credits)
+  - [**Finished Product**](#finished-product)
 
 
 
@@ -242,7 +243,6 @@ Using the same method I have used **Jigsaw** to validate the [`styles.css`](asse
 Fixed Bugs:
 
 - Path issue with loading the stylesheet and other image sources on the deployed version.
-Unfixed Bugs:
 
 Unfixed Bugs:
 
@@ -311,4 +311,24 @@ Embedded map for location display and navigation.
 - [Unsplash](https://unsplash.com/) Free images used on the site.
 - [Font Awesome](https://fontawesome.com/) Social Media Icons on Footer.
 - [Icons8](https://icons8.com/) Favicon.
+
+## Finished Product
+
+I’ve taken full-page screenshots of the entire website, showcasing both the desktop and mobile versions. 
+
+I hope to have inspired you, and I greatly appreciate your interest in my project.
+
+Author: [Razmik Movsisyan](https://github.com/RazmikMovsisyan)
+
+| ![desktop-light-trails-homepage](assets/readme/finished-product/desktop-light-trails-homepage.png) | ![desktop-light-trails-gallery](assets/readme/finished-product/desktop-light-trails-gallery.png) | ![desktop-light-trails-contact](assets/readme/finished-product/desktop-light-trails-contact.png) |
+|:---:|:---:|:---:|
+
+
+<table>
+  <tr>
+    <td valign="top"><img src="assets/readme/finished-product/mobile-light-trails-homepage.png" alt="mobile-light-trails-homepage" /></td>
+    <td valign="top"><img src="assets/readme/finished-product/mobile-light-trails-gallery.png" alt="mobile-light-trails-gallery" /></td>
+    <td valign="top"><img src="assets/readme/finished-product/mobile-light-trails-contact.png" alt="mobile-light-trails-contact" /></td>
+  </tr>
+</table>
 
