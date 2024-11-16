@@ -42,6 +42,9 @@ Let us help you preserve your memories in timeless, evocative images that you wi
   - [**Deployment**](#deployment)
   - [**Version Control**](#version-control)
   - [**Development Process and Commands**](#development-process-and-commands)
+  - [**Clone and Fork the Repository**](#clone-and-fork-the-repository)
+    - [**Clone the Repository**](#clone-the-repository)
+    - [**Fork the Repository**](#fork-the-repository)
   - [**Future Enhancements**](#future-enhancements)
   - [**Credits**](#credits)
   - [**Finished Product**](#finished-product)
@@ -71,7 +74,8 @@ Let us help you preserve your memories in timeless, evocative images that you wi
 
 ## **Features**
 
-**Light Trails** is a sleek, mobile-first developed, responsive photography portfolio that artfully presents travel photography through a minimalist, accessible design. Featuring a streamlined layout, three main pages, and social media links, it’s crafted for an elegant, user-friendly experience.
+**Light Trails** is a sleek, mobile-first developed, responsive photography portfolio that artfully presents photography through a minimalist, accessible design. Featuring a streamlined layout, three main pages, and social media links, it’s crafted for an elegant, user-friendly experience. 
+Every page has its own **SEO** meta tag description and keywords.
 
 #### **Used Technologies**  
 
@@ -168,7 +172,7 @@ Below, you will find a fully functional embedded Google Maps iframe, optimized f
 
 
 #### **Accessibility Focused** 
-All photos have alt attribute for screen readers.
+All images have alt attribute for screen readers.
 Also footer includes aria labelled social media links that open in a new window, as well as email and telephone links for direct communication, along with a contact form to ensure reliable communication with the website owner.
 
 ## Color Scheme
@@ -285,13 +289,59 @@ The link to my live site is: [Light Trails](https://razmikmovsisyan.github.io/li
 - Finally, I would push the commits from my local repository up to the Github repository using the command `git push`.
 - With every push, Github automatically deploys my latest commit from the 'main' branch to the Github pages.
 
+## Clone and Fork the Repository
+
+You can easily clone or fork the **Light Trails** repository to make changes or use it as a reference. Follow the steps below based on your operating system:
+
+
+#### **Fork the Repository**
+
+1. Visit the repository on GitHub: [Light Trails Repository](https://github.com/RazmikMovsisyan/light_trails).  
+2. Click the **Fork** button in the top-right corner to create your own copy of the repository under your GitHub account.
+
+
+#### **Clone the Repository**
+
+The repository has a single branch, with code committed sequentially for clarity. It can be forked or cloned for further development.
+
+##### For **Mac** Users:
+
+1. Open the **Terminal**.
+2. Navigate to the directory where you want to clone the repository:  
+   ```bash
+   cd /path/to/your/directory
+   ```
+3. Run the following command to clone the repository:  
+   ```bash
+   git clone https://github.com/RazmikMovsisyan/light_trails.git
+   ```
+4. Navigate into the cloned directory:  
+   ```bash
+   cd light_trails
+   ```
+
+##### For **Windows** Users:
+
+1. Open **Command Prompt** or **PowerShell**.
+2. Navigate to the directory where you want to clone the repository:  
+   ```cmd
+   cd C:\path\to\your\directory
+   ```
+3. Run the following command to clone the repository:  
+   ```cmd
+   git clone https://github.com/RazmikMovsisyan/light_trails.git
+   ```
+4. Navigate into the cloned directory:  
+   ```cmd
+   cd light_trails
+   ```
    
 ## Future Enhancements
 
 This website has all the essential features to make it a functional minimum viable product, ready for real-world use. However, there is still a lot of potential for further enhancements and additional features. Here are a few ideas:
 
 - Implement a lightbox feature for fullscreen photo viewing.
-- Add a blog section for photo stories and travel experiences.
+- Add a blog section for photo stories and experiences.
 - Create a dynamic gallery with filtering options by location or theme.
 - Implementing additional accessibility improvements, such as keyboard navigation and optimized screen reader support.
 - Add the following pages and functions: Terms and Conditions, Imprint, Privacy Policy, Cookies, Error 404 Page and a search function.

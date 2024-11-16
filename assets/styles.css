@@ -111,7 +111,7 @@ nav a:hover {
     color: #ad8e70;
 }
 
-#active {
+.active {
     border-bottom: 1px solid rgb(173, 142, 112);
 }
 
@@ -216,11 +216,14 @@ footer p {
 
 .contact-paragraph h1,
 .contact-paragraph h2,
-.contact-paragraph p {
+.contact-paragraph p,
+.contact-paragraph ul {
     background-color: #000000a1;
     font-weight: 300;
     margin: 0;
     line-height:  1.7;
+    list-style-type: none;
+    text-align: center;
 }
 
 
@@ -247,6 +250,7 @@ button {
 
 textarea {
     height: 200px;
+    padding: 7px 0 0 7px;
 }
 
 button {
@@ -344,8 +348,7 @@ button:hover {
     }
 
     input,
-    textarea,
-    button {
+    textarea {
         margin: 10px auto;
         padding-left: 7px;
     }
